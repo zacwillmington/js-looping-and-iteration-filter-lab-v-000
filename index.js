@@ -5,3 +5,7 @@ function findMatching (drivers, driverName) {
 
     return foundDrivers;
 }
+
+function fuzzyMatch (){
+    
+}
