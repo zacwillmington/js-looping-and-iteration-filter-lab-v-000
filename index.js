@@ -9,3 +9,13 @@ function findMatching (drivers, driverName) {
 function fuzzyMatch (drivers, chars){
     const matched = drivers.filter(driver => chars);
 }
+
+function matchChars (chars, drivers) {
+    const matchingDrivers;
+    for ( const driver of drivers) {
+        if (driver[0] + driver[1] == chars){
+            matchingDrivers.push(driver);
+        }
+    }
+    return matchingDrivers
+}
