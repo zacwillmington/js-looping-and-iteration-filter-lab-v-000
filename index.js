@@ -11,12 +11,12 @@ function fuzzyMatch (drivers, chars){
     return matched;
 }
 
-function matchChars (chars, drivers) {
-    const matchingDrivers;
-    for ( const driver of drivers) {
-        if (driver[0] + driver[1] == chars){
-            matchingDrivers.push(driver);
-        }
-    }
-    return matchingDrivers
-}
+// function matchChars (chars, drivers) {
+//     const matchingDrivers;
+//     for ( const driver of drivers) {
+//         if (driver[0] + driver[1] == chars){
+//             matchingDrivers.push(driver);
+//         }
+//     }
+//     return matchingDrivers
+// }
