@@ -1,7 +1,7 @@
 // Code your solution in this file
 
 function findMatching (drivers, driverName) {
-    const foundDrivers = drivers.filter(function (driver, driverName) {driver === driverName || driver === driverName.toLowerCase()});
+    const foundDrivers = drivers.filter(function (driver, driverName) {driver === driverName || driver === driverName.toLowerCase();});
 
     return foundDrivers;
 }
